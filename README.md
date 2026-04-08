@@ -1,4 +1,6 @@
-# throughput basin
+# The Throughput Basin
+
+**Paper 3** — Cross-Substrate Convergence and Decomposition of Serial Decoding Throughput
 
 **Website:** https://windstorminstitute.org
 
