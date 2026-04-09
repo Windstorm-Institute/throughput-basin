@@ -4,7 +4,7 @@
 
 **Website:** https://windstorminstitute.org
 
-**Published Research Paper (Zenodo):** [https://zenodo.org/records/19323423](https://zenodo.org/records/19323423)
+**Published Research Paper (Zenodo):** [https://zenodo.org/records/19323194](https://zenodo.org/records/19323194)
 
 **Windstorm Institute Community:** https://zenodo.org/communities/windstorm-institute/
 
