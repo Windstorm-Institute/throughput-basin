@@ -10,7 +10,7 @@ The Windstorm Institute, Fort Ann, NY 12827, USA; grantwhitmer3@gmail.com
 
 ## Abstract
 
-This study examines throughput convergence across six domains -- genetics, artificial intelligence, human cognition, music, language, and engineered systems -- by measuring or calculating effective information per serial decoding event for 31 systems with vocabulary sizes spanning 64,000-fold. A decomposition framework I_eff = R_M(epsilon) + Delta_s + xi_i partitions throughput into a universal rate-distortion floor, substrate-specific slack, and system-specific residual. Across 31 systems, 94% of observed throughput values fall between 2 and 6 bits, with a median of 4.39 bits (bootstrap 95% CI: 3.82--4.67). Monte Carlo sampling (100,000 draws) places 90.5% of bio-plausible samples in the 3--6 bit band versus 28.3% for random broad sampling (p < 10^-300). Three independent evolutionary simulations converge to K ~ 19--30, and a co-evolutionary simulation discovers K = 19.76 and epsilon = 6.62 x 10^-3 -- within 10% of the ribosome's values -- starting from no biological priors. Without AI models, the remaining systems do not cluster significantly tighter than alphabet sizes predict (p ~ 0.56), indicating that cross-domain convergence statistically depends on the AI data.
+This study examines throughput convergence across six domains -- genetics, artificial intelligence, human cognition, music, language, and engineered systems -- by measuring or calculating effective information per serial decoding event for 31 systems with vocabulary sizes spanning 64,000-fold. A decomposition framework I_eff = R_M(epsilon) + Delta_s + xi_i partitions throughput into a universal rate-distortion floor, substrate-specific slack, and system-specific residual. Across 31 systems, 94% of observed throughput values fall between 2 and 6 bits, with a median of 4.39 bits (bootstrap 95% CI: 3.82--4.67). Monte Carlo sampling (100,000 draws) places 90.5% of bio-plausible samples in the 3--6 bit band versus 28.3% for random broad sampling (p < 10^-300). Three independent evolutionary simulations converge to K ~ 19--30, and a co-evolutionary simulation discovers K = 19.76 (within 6% of the ribosome's M = 21) and epsilon = 6.62 x 10^-3 (the same order of magnitude as biological translation error rates), starting from no biological priors. Without AI models, the remaining systems do not cluster significantly tighter than alphabet sizes predict (p ~ 0.56), indicating that cross-domain convergence statistically depends on the AI data.
 
 **Keywords:** basin decomposition; evolutionary simulation; Monte Carlo significance; receiver optimization; cross-domain convergence; alphabet size; discrimination cost; substrate slack; co-evolutionary discovery; bio-plausible sampling
 
@@ -83,7 +83,7 @@ In the strongest computational test, both K (alphabet size) and epsilon (error r
 
 Across all 31 systems, the median throughput is 4.39 bits (bootstrap 95% CI: 3.82--4.67, n = 10,000 bootstrap resamples). Ninety-four percent of observations fall between 2 and 6 bits. The band [3, 6] contains 71% of all observations. The histogram shows strong central clustering around 4--5 bits.
 
-Representative values by domain illustrate the convergence: the ribosome reads codons at 4.39 bits per codon; human ears decode English consonants at approximately 4.2 bits per phoneme; the chromatic musical scale discriminates pitches at 3.6 bits per tone; working memory holds items at approximately 3.1 bits each; Morse code transmits at approximately 4.8 bits per symbol; AI transformers process approximately 4.2 bits per token.
+Representative values by domain illustrate the convergence: the ribosome reads codons at 4.39 bits per codon; human ears decode English consonants at approximately 3.9 bits per phoneme; the chromatic musical scale discriminates pitches at 3.6 bits per tone; working memory holds items at approximately 3.1 bits each; Morse code transmits at approximately 4.8 bits per symbol; AI transformers process approximately 4.2 bits per token.
 
 ### 3.2. Substrate Slack
 
@@ -132,7 +132,7 @@ Three codebases, three fitness functions, same basin. The multi-regime substrate
 
 ### 3.7. Co-Evolutionary Discovery
 
-When both K and epsilon were allowed to co-evolve with no biological priors, the population independently discovered K = 19.76 and epsilon = 6.62 x 10^-3. The ribosome uses M = 21 amino acids at epsilon ~ 10^-4 to 5 x 10^-3. The simulation landed within 10% of the ribosome's actual values, starting from nothing but math.
+When both K and epsilon were allowed to co-evolve with no biological priors, the population independently discovered K = 19.76 and epsilon = 6.62 x 10^-3. The ribosome uses M = 21 amino acids at epsilon ~ 10^-4 to 5 x 10^-3. The discovered alphabet size landed within 6% of the ribosome's M = 21, and the error rate fell within the same order of magnitude as biological translation error rates, starting from nothing but math.
 
 This is the paper's most significant computational result: the convergence is not a parameter choice but an emergent property of the optimization landscape that real molecular evolution also found.
 
@@ -182,7 +182,7 @@ Several systems outside the formal analysis share the 2^6 = 64 encoding depth: B
 
 ## 5. Conclusion
 
-The Throughput Basin Decomposition proposes that serial decoding systems share a universal rate-distortion floor plus substrate-specific slack, governed by the cost of reliable discrimination under noise. The observed 3--6 bit clustering across 31 systems is statistically significant against random parameter sampling (90.5% versus 28.3%, p < 10^-300). Three independent evolutionary simulations converge to biologically relevant alphabet sizes (K ~ 19--30), and one co-evolutionary simulation independently rediscovered both the genetic code's alphabet size and error rate to within 10% starting from no biological knowledge. Whether this constrained regime reflects a deep physical law or merely the coincidence of moderate parameter ranges in biological systems remains an open question worthy of future investigation, particularly through expanded Tier 1 confusion-matrix measurements across additional domains.
+The Throughput Basin Decomposition proposes that serial decoding systems share a universal rate-distortion floor plus substrate-specific slack, governed by the cost of reliable discrimination under noise. The observed 3--6 bit clustering across 31 systems is statistically significant against random parameter sampling (90.5% versus 28.3%, p < 10^-300). Three independent evolutionary simulations converge to biologically relevant alphabet sizes (K ~ 19--30), and one co-evolutionary simulation independently rediscovered the genetic code's alphabet size to within 6% and its error rate to within the same order of magnitude, starting from no biological knowledge. Whether this constrained regime reflects a deep physical law or merely the coincidence of moderate parameter ranges in biological systems remains an open question worthy of future investigation, particularly through expanded Tier 1 confusion-matrix measurements across additional domains.
 
 ---
 
