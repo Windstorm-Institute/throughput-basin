@@ -1,21 +1,9 @@
-% Paper 3 of 7 in The Windstorm Series
-\documentclass[12pt,a4paper]{article}
-
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{natbib}
-\usepackage{booktabs}
-
+\documentclass[11pt]{article}
+\usepackage{wsi-style}
+\wsirunhead{The Throughput Basin}
 \title{Cross-Substrate Convergence and Decomposition of Serial Decoding Throughput}
-
-\author{Grant Lavell Whitmer III\\
-The Windstorm Institute, Fort Ann, NY 12827, USA\\
-\texttt{grantwhitmer3@gmail.com}}
-
+\author{Grant Whitmer}
 \date{March 2026}
-
 \begin{document}
 
 \maketitle
@@ -90,7 +78,7 @@ In the strongest computational test, both $K$ (alphabet size) and $\varepsilon$ 
 
 Across all 31 systems, the median throughput is 4.39 bits (bootstrap 95\% CI: 3.82--4.67, $n = 10{,}000$ bootstrap resamples). Ninety-four percent of observations fall between 2 and 6 bits. The band $[3, 6]$ contains 71\% of all observations. The histogram shows strong central clustering around 4--5 bits.
 
-Representative values by domain illustrate the convergence: the ribosome reads codons at 4.39 bits per codon; human ears decode English consonants at approximately 3.9 bits per phoneme; the chromatic musical scale discriminates pitches at 3.6 bits per tone; working memory holds items at approximately 3.1 bits each; Morse code transmits at approximately 4.8 bits per symbol; AI transformers process approximately 4.2 bits per token.
+Representative values by domain illustrate the convergence: the ribosome reads codons at 4.39 bits per codon; human ears decode English consonants at approximately 3.9 bits per phoneme; the chromatic musical scale discriminates pitches at 3.6 bits per tone; working memory holds items at approximately 3.1 bits each; Morse code transmits at approximately 4.8 bits per symbol; AI transformers process approximately 4.2 bits per token. These systems share nothing in common except that they all process information one step at a time under noise---and they all land in the same narrow band.
 
 \subsection{Substrate Slack}
 
@@ -114,7 +102,7 @@ Biology operates nearest the floor. Cognition and music carry higher slack, cons
 
 \subsection{Monte Carlo Basin Significance}
 
-Bio-plausible parameter sampling places 90.5\% of samples in the $[3, 6]$ bit band versus 28.3\% for random broad sampling (binomial test $p < 10^{-300}$). The enrichment is substantial (62.2 percentage points), demonstrating that the basin is a geometric consequence of biological parameter ranges.
+Bio-plausible parameter sampling places 90.5\% of samples in the $[3, 6]$ bit band versus 28.3\% for random broad sampling (binomial test $p < 10^{-300}$). The enrichment is substantial (62.2 percentage points), indicating that the basin follows geometrically from $R_M$ evaluated over biological parameter ranges rather than from any additional cross-substrate mechanism.
 
 \subsection{Cross-Domain ANOVA}
 
@@ -153,7 +141,7 @@ Three codebases, three fitness functions, same basin. The multi-regime substrate
 
 When both $K$ and $\varepsilon$ were allowed to co-evolve with no biological priors, the population independently discovered $K = 19.76$ and $\varepsilon = 6.62 \times 10^{-3}$. The ribosome uses $M = 21$ amino acids at $\varepsilon \sim 10^{-4}$ to $5 \times 10^{-3}$. The discovered alphabet size landed within 6\% of the ribosome's $M = 21$, and the error rate fell within the same order of magnitude as biological translation error rates, starting from nothing but math.
 
-This is the paper's most significant computational result: the convergence is not a parameter choice but an emergent property of the optimization landscape that real molecular evolution also found.
+This is the paper's most significant computational result: the convergence is not a parameter choice but an emergent property of the optimization landscape, whose optimum sits near the alphabet size real molecular evolution settled on.
 
 \section{Discussion}
 
@@ -199,7 +187,7 @@ Several systems outside the formal analysis share the $2^6 = 64$ encoding depth:
 
 \section{Conclusion}
 
-The Throughput Basin Decomposition proposes that serial decoding systems share a universal rate-distortion floor plus substrate-specific slack, governed by the cost of reliable discrimination under noise. The observed 3--6 bit clustering across 31 systems is statistically significant against random parameter sampling (90.5\% versus 28.3\%, $p < 10^{-300}$). Three independent evolutionary simulations converge to biologically relevant alphabet sizes ($K \sim 19$--30), and one co-evolutionary simulation independently rediscovered the genetic code's alphabet size to within 6\% and its error rate to within the same order of magnitude, starting from no biological knowledge. Whether this constrained regime reflects a deep physical law or merely the coincidence of moderate parameter ranges in biological systems remains an open question worthy of future investigation, particularly through expanded Tier~1 confusion-matrix measurements across additional domains.
+The Throughput Basin Decomposition proposes that serial decoding systems share a universal rate-distortion floor plus substrate-specific slack, governed by the cost of reliable discrimination under noise. The observed 3--6 bit clustering across 31 systems is statistically significant against random parameter sampling (90.5\% versus 28.3\%, $p < 10^{-300}$). Three independent evolutionary simulations converge to biologically relevant alphabet sizes ($K \sim 19$--30), and one co-evolutionary simulation independently rediscovered the genetic code's alphabet size to within 6\% and its error rate to within the same order of magnitude, starting from no biological knowledge. Whether this constrained regime reflects a deep physical law or merely the coincidence of moderate parameter ranges in biological systems remains an open question worthy of future investigation, particularly through expanded Tier~1 confusion-matrix measurements across additional domains. Priority measurement targets include olfactory receptor throughput, sign-language phoneme confusion matrices, insect pheromone coding, and synthetic-biology experiments with expanded genetic codes; each new Tier~1 measurement narrows the confidence interval on the basin centroid and strengthens or weakens the cross-substrate convergence claim. The thermodynamic anchoring of this basin to fundamental physical parameters is explored in the companion Serial Decoding Basin paper~\cite{whitmer2026sdb}.
 
 \vspace{1em}
 \noindent\textbf{Author Contributions:} Conceptualization, G.L.W.; methodology, G.L.W.; software, G.L.W.; validation, G.L.W.; formal analysis, G.L.W.; investigation, G.L.W.; resources, G.L.W.; data curation, G.L.W.; writing---original draft preparation, G.L.W.; writing---review and editing, G.L.W.; visualization, G.L.W.; supervision, G.L.W.; project administration, G.L.W.
@@ -212,13 +200,20 @@ The Throughput Basin Decomposition proposes that serial decoding systems share a
 
 \noindent\textbf{Conflicts of Interest:} The author declares no conflict of interest.
 
+\section*{Appendix A: Complete System Survey Data}
+
+The full data for all 31 systems---including alphabet size $M$, error rate $\varepsilon$, observed throughput, evidence tier, and source references---are available in the companion repository~\cite{whitmer2026tb_code}.
+
+\subsection*{Data, Code \& Resources}
+\noindent Manuscript source and archived record: \url{https://github.com/Windstorm-Institute/throughput-basin} (Zenodo: \href{https://doi.org/10.5281/zenodo.19323193}{10.5281/zenodo.19323193}). Experiments, datasets, and analysis code: \url{https://github.com/Windstorm-Labs/throughput-basin}. Windstorm Institute: \url{https://windstorminstitute.org}. Windstorm Labs: \url{https://windstormlabs.com}.
+
 \begin{thebibliography}{14}
 
 \bibitem{whitmer2026rlf}
 Whitmer III, G.L.
 The Receiver-Limited Floor: Rate-Distortion Bounds on Serial Decoding Throughput.
 \textit{Zenodo} \textbf{2026}.
-\href{https://doi.org/10.5281/zenodo.19322973}{DOI: 10.5281/zenodo.19322973}
+\href{https://doi.org/10.5281/zenodo.19322972}{DOI: 10.5281/zenodo.19322972}
 
 \bibitem{millernicely1955}
 Miller, G.A.; Nicely, P.E.
@@ -242,7 +237,7 @@ Kinetic Proofreading: A New Mechanism for Reducing Errors in Biosynthetic Proces
 Whitmer III, G.L.
 The Fons Constraint: Information-Theoretic Convergence on Encoding Depth in Self-Replicating Systems.
 \textit{Zenodo} \textbf{2026}.
-\href{https://doi.org/10.5281/zenodo.19274048}{DOI: 10.5281/zenodo.19274048}
+\href{https://doi.org/10.5281/zenodo.19274047}{DOI: 10.5281/zenodo.19274047}
 
 \bibitem{shannon1948}
 Shannon, C.E.
@@ -288,7 +283,7 @@ Available online: \url{https://github.com/Windstorm-Labs/throughput-basin} (acce
 Whitmer III, G.L.
 The Serial Decoding Basin: Five Experiments on Convergence, Thermodynamic Anchoring, and Receiver-Limited Geometry.
 \textit{Zenodo} \textbf{2026}.
-\href{https://doi.org/10.5281/zenodo.19323423}{DOI: 10.5281/zenodo.19323423}
+\href{https://doi.org/10.5281/zenodo.19323422}{DOI: 10.5281/zenodo.19323422}
 
 \bibitem{borst1999}
 Borst, A.; Theunissen, F.E.
@@ -299,9 +294,9 @@ Information Theory and Neural Coding.
 \end{thebibliography}
 
 \vspace{2em}
-\noindent\textit{This paper is Paper 3 of The Windstorm Series (Papers 1--7) on universal constraints in serial information processing.}
+\noindent\textit{This is Paper 3 of The Windstorm Series (Papers 1--9) on universal constraints in serial information processing.}
 
 \vspace{1em}
-\noindent\textcopyright~2026 Grant Lavell Whitmer III. This work is licensed under a \href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International License} (CC BY 4.0).
+\noindent\textcopyright~2026 Grant Whitmer. This work is licensed under a \href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International License} (CC BY 4.0).
 
 \end{document}
