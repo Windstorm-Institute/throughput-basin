@@ -208,7 +208,7 @@ The author declares no competing financial or personal interests that could infl
 
 ## References
 
-[1] Whitmer III, G.L. "The Receiver-Limited Floor: Rate-Distortion Bounds on Serial Decoding Throughput," Zenodo, 2026. DOI: 10.5281/zenodo.19322973
+[1] Whitmer III, G.L. "The Receiver-Limited Floor: Rate-Distortion Bounds on Serial Decoding Throughput," Zenodo, 2026. DOI: 10.5281/zenodo.19322972
 
 [2] Miller, G.A.; Nicely, P.E. "An analysis of perceptual confusions among some English consonants," Journal of the Acoustical Society of America, vol. 27, no. 2, pp. 338-352, 1955. DOI: 10.1121/1.1907526
 
@@ -216,7 +216,7 @@ The author declares no competing financial or personal interests that could infl
 
 [4] Hopfield, J.J. "Kinetic proofreading: A new mechanism for reducing errors in biosynthetic processes requiring high specificity," Proceedings of the National Academy of Sciences, vol. 71, no. 10, pp. 4135-4139, 1974. DOI: 10.1073/pnas.71.10.4135
 
-[5] Whitmer III, G.L. "The Fons Constraint: Information-Theoretic Convergence on Encoding Depth in Self-Replicating Systems," Zenodo, 2026. DOI: 10.5281/zenodo.19274048
+[5] Whitmer III, G.L. "The Fons Constraint: Information-Theoretic Convergence on Encoding Depth in Self-Replicating Systems," Zenodo, 2026. DOI: 10.5281/zenodo.19274047
 
 [6] Shannon, C.E. "A Mathematical Theory of Communication," Bell System Technical Journal, vol. 27, no. 3, pp. 379-423, 1948. DOI: 10.1002/j.1538-7305.1948.tb01338.x
 
@@ -232,7 +232,7 @@ The author declares no competing financial or personal interests that could infl
 
 [12] Whitmer III, G.L. "Throughput Basin: Experiment Code and Data," GitHub, 2026. https://github.com/Windstorm-Labs/throughput-basin (accessed Apr. 12, 2026).
 
-[13] Whitmer III, G.L. "The Serial Decoding Basin: Five Experiments on Convergence, Thermodynamic Anchoring, and Receiver-Limited Geometry," Zenodo, 2026. DOI: 10.5281/zenodo.19323423
+[13] Whitmer III, G.L. "The Serial Decoding Basin: Five Experiments on Convergence, Thermodynamic Anchoring, and Receiver-Limited Geometry," Zenodo, 2026. DOI: 10.5281/zenodo.19323422
 
 [14] Borst, A.; Theunissen, F.E. "Information theory and neural coding," Nature Neuroscience, vol. 2, no. 11, pp. 947-957, 1999. DOI: 10.1038/14731
 
@@ -244,4 +244,4 @@ The full data for all 31 systems, including M, epsilon, observed throughput, evi
 
 ---
 
-*This paper is Paper 3 of The Windstorm Series. The series includes Paper 1: The Fons Constraint [5], Paper 2: The Receiver-Limited Floor [1], Paper 4: The Serial Decoding Basin [13], Paper 5: The Dissipative Decoder (DOI: 10.5281/zenodo.19433048), Paper 6: The Inherited Constraint (DOI: 10.5281/zenodo.19432911), and Paper 7: The Throughput Basin Origin (DOI: 10.5281/zenodo.19498582).*
+*This paper is Paper 3 of The Windstorm Series. The series includes Paper 1: The Fons Constraint [5], Paper 2: The Receiver-Limited Floor [1], Paper 4: The Serial Decoding Basin [13], Paper 5: The Dissipative Decoder (DOI: 10.5281/zenodo.19432785), Paper 6: The Inherited Constraint (DOI: 10.5281/zenodo.19432910), and Paper 7: The Throughput Basin Origin (DOI: 10.5281/zenodo.19498582).*

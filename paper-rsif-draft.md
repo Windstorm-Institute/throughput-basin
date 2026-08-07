@@ -176,7 +176,7 @@ This work did not require ethical approval.
 
 ## Data Accessibility
 
-All data, analysis scripts, evolutionary simulation code, and experiment protocols are publicly available at https://github.com/Windstorm-Labs/throughput-basin (DOI: 10.5281/zenodo.19323194).
+All data, analysis scripts, evolutionary simulation code, and experiment protocols are publicly available at https://github.com/Windstorm-Labs/throughput-basin (DOI: 10.5281/zenodo.19323193).
 
 ## Declaration of AI Use
 
@@ -200,7 +200,7 @@ This paper was developed through adversarial review by six frontier AI models (C
 
 ## References
 
-[1] Whitmer GL III. The Receiver-Limited Floor: Rate-Distortion Bounds on Serial Decoding Throughput. Zenodo. 2026. DOI: 10.5281/zenodo.19322973
+[1] Whitmer GL III. The Receiver-Limited Floor: Rate-Distortion Bounds on Serial Decoding Throughput. Zenodo. 2026. DOI: 10.5281/zenodo.19322972
 
 [2] Miller GA, Nicely PE. An analysis of perceptual confusions among some English consonants. J Acoust Soc Am. 1955;27:338-352. DOI: 10.1121/1.1907526
 
@@ -208,7 +208,7 @@ This paper was developed through adversarial review by six frontier AI models (C
 
 [4] Hopfield JJ. Kinetic proofreading: a new mechanism for reducing errors in biosynthetic processes requiring high specificity. Proc Natl Acad Sci USA. 1974;71:4135-4139. DOI: 10.1073/pnas.71.10.4135
 
-[5] Whitmer GL III. The Fons Constraint: Information-Theoretic Convergence on Encoding Depth in Self-Replicating Systems. Zenodo. 2026. DOI: 10.5281/zenodo.19274048
+[5] Whitmer GL III. The Fons Constraint: Information-Theoretic Convergence on Encoding Depth in Self-Replicating Systems. Zenodo. 2026. DOI: 10.5281/zenodo.19274047
 
 [6] Shannon CE. A mathematical theory of communication. Bell Syst Tech J. 1948;27:379-423. DOI: 10.1002/j.1538-7305.1948.tb01338.x
 
@@ -224,6 +224,6 @@ This paper was developed through adversarial review by six frontier AI models (C
 
 [12] Whitmer GL III. Throughput Basin: Experiment Code and Data. GitHub. 2026. Available from: https://github.com/Windstorm-Labs/throughput-basin
 
-[13] Whitmer GL III. The Serial Decoding Basin: Five Experiments on Convergence, Thermodynamic Anchoring, and Receiver-Limited Geometry. Zenodo. 2026. DOI: 10.5281/zenodo.19323423
+[13] Whitmer GL III. The Serial Decoding Basin: Five Experiments on Convergence, Thermodynamic Anchoring, and Receiver-Limited Geometry. Zenodo. 2026. DOI: 10.5281/zenodo.19323422
 
 [14] Borst A, Theunissen FE. Information theory and neural coding. Nat Neurosci. 1999;2:947-957. DOI: 10.1038/14731

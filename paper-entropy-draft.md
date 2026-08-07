@@ -210,11 +210,11 @@ The author declares no conflict of interest.
 
 ## References
 
-1. Whitmer, G.L., III. The Receiver-Limited Floor: Rate-Distortion Bounds on Serial Decoding Throughput. *Zenodo* **2026**. DOI: 10.5281/zenodo.19322973
+1. Whitmer, G.L., III. The Receiver-Limited Floor: Rate-Distortion Bounds on Serial Decoding Throughput. *Zenodo* **2026**. DOI: 10.5281/zenodo.19322972
 2. Miller, G.A.; Nicely, P.E. An Analysis of Perceptual Confusions among Some English Consonants. *J. Acoust. Soc. Am.* **1955**, *27*, 338--352. DOI: 10.1121/1.1907526
 3. Miller, G.A. The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information. *Psychol. Rev.* **1956**, *63*, 81--97. DOI: 10.1037/h0043158
 4. Hopfield, J.J. Kinetic Proofreading: A New Mechanism for Reducing Errors in Biosynthetic Processes Requiring High Specificity. *Proc. Natl. Acad. Sci. USA* **1974**, *71*, 4135--4139. DOI: 10.1073/pnas.71.10.4135
-5. Whitmer, G.L., III. The Fons Constraint: Information-Theoretic Convergence on Encoding Depth in Self-Replicating Systems. *Zenodo* **2026**. DOI: 10.5281/zenodo.19274048
+5. Whitmer, G.L., III. The Fons Constraint: Information-Theoretic Convergence on Encoding Depth in Self-Replicating Systems. *Zenodo* **2026**. DOI: 10.5281/zenodo.19274047
 6. Shannon, C.E. A Mathematical Theory of Communication. *Bell Syst. Tech. J.* **1948**, *27*, 379--423. DOI: 10.1002/j.1538-7305.1948.tb01338.x
 7. Tlusty, T. Rate-Distortion Scenario for the Emergence and Evolution of Noisy Molecular Codes. *Phys. Rev. Lett.* **2008**, *100*, 048101. DOI: 10.1103/PhysRevLett.100.048101
 8. Coupe, C.; Oh, Y.M.; Dediu, D.; Pellegrino, F. Different Languages, Similar Encoding Efficiency. *Sci. Adv.* **2019**, *5*, eaaw2594. DOI: 10.1126/sciadv.aaw2594
@@ -222,7 +222,7 @@ The author declares no conflict of interest.
 10. Tishby, N.; Pereira, F.C.; Bialek, W. The Information Bottleneck Method. In Proceedings of the 37th Allerton Conference on Communication, Control, and Computing, Monticello, IL, USA, 22--24 September 1999; pp. 368--377.
 11. Zaher, H.S.; Green, R. Quality Control by the Ribosome Following Peptide Bond Formation. *Nature* **2009**, *457*, 161--166. DOI: 10.1038/nature07582
 12. Whitmer, G.L., III. Throughput Basin: Experiment Code and Data. *GitHub* **2026**. Available online: https://github.com/Windstorm-Labs/throughput-basin (accessed 12 April 2026).
-13. Whitmer, G.L., III. The Serial Decoding Basin: Five Experiments on Convergence, Thermodynamic Anchoring, and Receiver-Limited Geometry. *Zenodo* **2026**. DOI: 10.5281/zenodo.19323423
+13. Whitmer, G.L., III. The Serial Decoding Basin: Five Experiments on Convergence, Thermodynamic Anchoring, and Receiver-Limited Geometry. *Zenodo* **2026**. DOI: 10.5281/zenodo.19323422
 14. Borst, A.; Theunissen, F.E. Information Theory and Neural Coding. *Nat. Neurosci.* **1999**, *2*, 947--957. DOI: 10.1038/14731
 
 ---
@@ -233,4 +233,4 @@ The full data for all 31 systems, including M, epsilon, observed throughput, evi
 
 ---
 
-*This paper is Paper 3 of The Windstorm Series. The series includes Paper 1: The Fons Constraint [5], Paper 2: The Receiver-Limited Floor [1], Paper 4: The Serial Decoding Basin [13], Paper 5: The Dissipative Decoder (DOI: 10.5281/zenodo.19433048), Paper 6: The Inherited Constraint (DOI: 10.5281/zenodo.19432911), and Paper 7: The Throughput Basin Origin (DOI: 10.5281/zenodo.19498582).*
+*This paper is Paper 3 of The Windstorm Series. The series includes Paper 1: The Fons Constraint [5], Paper 2: The Receiver-Limited Floor [1], Paper 4: The Serial Decoding Basin [13], Paper 5: The Dissipative Decoder (DOI: 10.5281/zenodo.19432785), Paper 6: The Inherited Constraint (DOI: 10.5281/zenodo.19432910), and Paper 7: The Throughput Basin Origin (DOI: 10.5281/zenodo.19498582).*
