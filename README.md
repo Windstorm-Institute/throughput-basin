@@ -15,7 +15,6 @@ Grant Lavell Whitmer III · Windstorm Labs, The Windstorm Institute · Fort Ann,
 ## Read the Paper
 
 - **[paper.pdf](paper.pdf)** — full academic paper
-- **[article.html](article.html)** — accessible web version
 - **[Zenodo record](https://doi.org/10.5281/zenodo.19323193)** — archived with DOI
 - **[Website article](https://windstorminstitute.org/articles/throughput-basin.html)** — long-form companion
 
